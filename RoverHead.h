@@ -35,7 +35,7 @@ public:
 
   byte getBearing() { return _bearing; }
 
-  word getDistance() { return &_distance; }
+  word getDistance() { return _distance; }
 
   void turnHead(byte direction) {
     _bearing = direction;
